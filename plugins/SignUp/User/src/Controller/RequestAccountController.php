@@ -3,6 +3,7 @@ namespace SignUp\User\Controller;
 
 use Cake\Mailer\Email;
 use Cake\Network\Exception\SocketException;
+use Cake\Routing\RouteBuilder;
 use SignUp\User\Controller\AppController;
 use Cake\ORM\TableRegistry;
 use Cake\Utility\Security;
@@ -87,16 +88,18 @@ class RequestAccountController extends AppController
             return;
         }
 
-        $this->sendMailAdmin();
+        $this->sendMailAdmin($user->id);
 
-        return $this->_afterRegister($userSaved);
+        $this->Flash->success(__d('SignUp/user', 'You have registered successfully, please log in'));
+
+        return $this->redirect(['plugin' => 'Accounts/Auth', 'controller' => 'Users', 'action' => 'login']);
     }
 
-    private function sendMailAdmin()
+    private function sendMailAdmin($id)
     {
         $admin_emails = TableRegistry::get('users');
         $admin_emails = $admin_emails->find('list', [
-                                        'keyField' => 'id',
+                                        'keyField' => 'email',
                                         'valueField' => 'email'
                                         ])
             ->where(['is_superuser' => true]);
@@ -105,6 +108,7 @@ class RequestAccountController extends AppController
         $email->setProfile(['transport' => 'default'])
             ->setTemplate('SignUp/User.new_user')
             ->setEmailFormat('html')
+            ->setViewVars($id)
             ->setTo($admin_emails->toArray())
             ->setSubject('Novo Usuário');
 

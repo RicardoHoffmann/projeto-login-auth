@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'TIDigital';
+$cakeDescription = 'Projeto CodeRace';
 ?>
 <!DOCTYPE html>
 <html>
@@ -49,8 +49,8 @@ $cakeDescription = 'TIDigital';
         <span data-hide-for="medium">
           <button class="menu-icon" type="button" data-toggle="my-panel-left"></button>
         </span>
-        <span class="show-for-large separator"><?= $this->Html->link('TIDigital', ['plugin' => null, 'controller' => 'pages']) ?></span>
-        <span class="hide-for-large"><?= $this->Html->link('TIDigital', ['plugin' => null, 'controller' => 'pages']) ?></span>
+        <span class="show-for-large separator"><?= $this->Html->link('Projeto CodeRace', ['plugin' => null, 'controller' => 'pages']) ?></span>
+        <span class="hide-for-large"><?= $this->Html->link('Projeto CodeRace', ['plugin' => null, 'controller' => 'pages']) ?></span>
     </div>
     <div id="responsive-menu" class="show-for-large">
         <div class="top-bar-left">
@@ -112,7 +112,7 @@ $cakeDescription = 'TIDigital';
 <footer class="footer">
     <div class="row">
         <div class="small-12 columns">
-            <p class="slogan">TIDigital</p>
+            <p class="slogan">Projeto CodeRace</p>
             <p class="links">
                 <a href="#">Home</a>
                 <a href="#">WikiFarroupilha</a>

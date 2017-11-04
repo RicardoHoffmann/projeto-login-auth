@@ -5,11 +5,6 @@ use Accounts\Authz\Controller\AppController;
 use Cake\Utility\Text;
 use Cake\Routing\Router;
 
-/**
- * Menus Controller
- *
- * @property \Menu\Model\Table\MenusTable $Menus
- */
 class MenusController extends AppController
 {
     public function initialize()

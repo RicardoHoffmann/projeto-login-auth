@@ -46,36 +46,6 @@
             </td>
         </tr>
         <tr>
-            <th><?= __d('Accounts/admin', 'Specialization (s)') ?></th>
-            <td>
-                <?php
-                if (!$isStudent && !$isEmployee && !$isOutsourced && !$isScholarship): ?>
-                <i>
-                    <small>
-                        <?= __d('Accounts/admin', 'None Specialization')?>
-                    </small>
-                </i>
-                <?php else: ?>
-                    <?php if ($isStudent): ?>
-                        <?= __d('Accounts/admin', 'Student'); ?>
-                    <br>
-                    <?php endif; ?>
-                    <?php foreach ($categories as $category): ?>
-                        <?= __($category->description); ?>
-                        <br>
-                    <?php endforeach; ?>
-                    <?php if ($isOutsourced): ?>
-                        <?= __d('Accounts/admin', 'Outsourced'); ?>
-                    <br>
-                    <?php endif; ?>
-                    <?php if ($isScholarship): ?>
-                        <?= __d('Accounts/admin', 'Scholarship'); ?>
-                    <?php endif; ?>
-                <?php endif; ?>
-
-            </td>
-        </tr>
-        <tr>
             <th><?= __d('Accounts/admin', 'Token') ?></th>
             <td><?= h($Users->token) ?></td>
         </tr>

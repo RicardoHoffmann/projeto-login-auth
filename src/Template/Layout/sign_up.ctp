@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'TIDigital';
+$cakeDescription = 'Projeto CodeRace';
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,7 +46,7 @@ $cakeDescription = 'TIDigital';
 
 <div class="top-bar">
     <div class="top-bar-title">
-        <?= $this->Html->link('TIDigital', ['plugin' => 'Accounts/Auth', 'controller' => 'Users', 'action' => 'login']) ?> - Autocadastro
+        <?= $this->Html->link('Projeto CodeRace', ['plugin' => 'Accounts/Auth', 'controller' => 'Users', 'action' => 'login']) ?> - Autocadastro
     </div>
 </div>
 
@@ -58,7 +58,7 @@ $cakeDescription = 'TIDigital';
 <footer class="footer">
     <div class="row">
         <div class="small-12 columns">
-            <p class="slogan">TIDigital</p>
+            <p class="slogan">Projeto CodeRace</p>
             <p class="copywrite">Instituto Federal Farroupilha - Campus São Vicente do Sul</p>
             <p class="copywrite">Coordenação de Tecnologia da Informação</p>
             <p class="copywrite">© CTI <?= date('Y') ?></p>

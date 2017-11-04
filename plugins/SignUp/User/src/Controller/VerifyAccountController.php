@@ -55,7 +55,7 @@ class VerifyAccountController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
-    public function accept($id = null, $category_id)
+    public function accept($id = null)
     {
         $usersTable = TableRegistry::get('Users');
         $user = $usersTable->get($id);

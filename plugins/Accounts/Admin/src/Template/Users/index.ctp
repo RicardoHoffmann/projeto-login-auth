@@ -47,7 +47,6 @@
                 <?= $this->Html->link('<i class="fi-zoom-in" style="margin-right: 5px;" title="' . __d('Accounts/admin', 'View') . '"></i>', ['action' => 'view', $user->id], ['escape' => false]) ?>
                 <?= $this->Html->link('<i class="fi-lock" style="margin-right: 5px;" title="' . __d('Accounts/admin', 'Change Password') . '"></i>', ['action' => 'changePassword', $user->id], ['escape' => false]) ?>
                 <?= $this->Html->link('<i class="fi-pencil" style="margin-right: 5px;" title="' . __d('Accounts/admin', 'Edit') . '"></i>', ['action' => 'edit', $user->id], ['escape' => false]) ?>
-                <?= $this->Html->link('<i class="fi-torsos-all" style="margin-right: 5px;" title="' . __d('Accounts/admin', 'Specialize') . '"></i>', ['action' => 'specialize-user', $user->id], ['escape' => false]) ?>
             </td>
         </tr>
     <?php endforeach; ?>

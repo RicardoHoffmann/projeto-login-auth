@@ -1910,13 +1910,13 @@ p + .stat {
     padding: 0.85em 1em;
     margin: 0 0 1rem 0;
     font-size: 0.9rem;
-    background-color: #09661A;
+    background-color: #cea332;
     color: #fefefe; }
 
 [data-whatinput='mouse'] .button {
     outline: 0; }
 .button:hover, .button:focus {
-    background-color: #009966;
+    background-color: #cea332;
     color: #fefefe; }
 .button.tiny {
     font-size: 0.6rem; }
@@ -2113,7 +2113,7 @@ label {
     font-size: 0.875rem;
     font-weight: normal;
     line-height: 1.8;
-    color: #ffffff; }
+    color: #8a8a8a; }
 label.middle {
     margin: 0 0 1rem;
     padding: 0.5625rem 0; }
@@ -3869,7 +3869,7 @@ table.hover tr:nth-of-type(even):hover {
 
 
 .is-submenu-item {
-    background-color: #0b6125;
+    background-color: #6f6f6f;
 }
 .top-bar {
     background-color: #222;

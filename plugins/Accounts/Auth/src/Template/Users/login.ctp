@@ -7,6 +7,9 @@
     body {
         background: url(<?=  $this->Url->image('landpage_backgroundd.jpg') ?>)
     }
+    label, a {
+        color: #ffffff;
+    }
     .box {
         background: rgba(0, 0, 0, 0.3);;
         padding: 40px;

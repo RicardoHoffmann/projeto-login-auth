@@ -137,7 +137,7 @@ a:hover {
 }
 
 a {
-    color: #ffffff;
+    color: #4b4b4b;
 }
 
 .is-drilldown-submenu-item {
@@ -154,7 +154,7 @@ a {
 }
 
 .side-nav li a:not(.button):hover {
-    color: #228B22;
+    color: #fec503;
 }
 
 header {

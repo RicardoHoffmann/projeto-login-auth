@@ -46,12 +46,12 @@ class DatabaseLog extends BaseLog
     private function sendLogs($level, $message, $created)
     {
         $settings = [
-            'channel' => '#tidigital-errors',
+            'channel' => '#errors',
             'link_names' => true,
         ];
-        $client = new SlackClient('https://hooks.slack.com/services/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', $settings);
+        $client = new SlackClient('https://hooks.slack.com/services/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', $settings);
 
-        $messageSend = "Informamos que houve um novo Log de Erro no Sistema TIDigital.\n\nNivel:\n ".$level. "\n\nMensagem:\n". $message . " \n\nOcorrido em: ".$created;
+        $messageSend = "Informamos que houve um novo Log de Erro no Sistema Projeto CodeRace.\n\nNivel:\n ".$level. "\n\nMensagem:\n". $message . " \n\nOcorrido em: ".$created;
         try{
             $client->send($messageSend);
         }
@@ -63,12 +63,12 @@ class DatabaseLog extends BaseLog
     private function sendLogsError404($level, $message, $created)
     {
         $settings = [
-            'channel' => '#tidigital-404',
+            'channel' => '#errors',
             'link_names' => true,
         ];
-        $client = new SlackClient('https://hooks.slack.com/services/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', $settings);
+        $client = new SlackClient('https://hooks.slack.com/services/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', $settings);
 
-        $messageSend = "Informamos que houve um novo Log Error 404 no Sistema TIDigital.\n\nNivel:\n ".$level. "\n\nMensagem:\n". $message . " \n\nOcorrido em: ".$created;
+        $messageSend = "Informamos que houve um novo Log Error 404 no Sistema Projeto CodeRace.\n\nNivel:\n ".$level. "\n\nMensagem:\n". $message . " \n\nOcorrido em: ".$created;
         try{
             $client->send($messageSend);
         }

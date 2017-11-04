@@ -22,7 +22,7 @@
     .buttonHolder{ text-align: center; }
 
     body {
-        background: url(<?=  $this->Url->image('landpage_background.jpg') ?>);
+        background: url(<?=  $this->Url->image('landpage_backgroundd.jpg') ?>);
     }
 </style>
 <div class="row" >

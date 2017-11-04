@@ -49,4 +49,28 @@ bin/cake migrations seed --plugin Accounts/Authz
 ```
 
 ## 4º Passo
+Configure um e-mail para que seja possível enviar e-mails para os Administradores do Sistema quando tem um novo usuário, para que ele possa autorizá-lo. Lembre-se de ir no gmail, e autorizar acesso para Aplicativos menos seguros em sua conta.
+```
+'EmailTransport' => [
+        'default' => [
+            'className' => 'Smtp',
+            // The following keys are used in SMTP transports
+            'host' => 'ssl://smtp.gmail.com',
+            'port' => 465,
+            'timeout' => 30,
+            'username' => 'YOUR_EMAIL@GMAIL.COM',
+            'password' => 'YOUR_PASS',
+            'client' => null,
+            'tls' => null,
+            'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
+        ],
+    ],
+```
+
+## 5º Passo
 - Acesse ```/projeto-login-auth/login``` e faça login.
+
+## Tela de Login
+
+[Login](https://github.com/jeffersonbehling/projeto-login-auth/blob/master/webroot/img/screenshots/login.png)
+![alt text](https://github.com/jeffersonbehling/projeto-login-auth/blob/master/webroot/img/screenshots/login.png)

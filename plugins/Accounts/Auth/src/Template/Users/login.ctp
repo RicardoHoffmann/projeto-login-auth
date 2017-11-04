@@ -88,16 +88,18 @@
     document.getElementById("username").focus();
 
     $('input[name=username]').change(function() {
-        $.ajax({
+        if ($('input[name=username]').val() != '') {
+            $.ajax({
                 url: '<?= Router::url(['plugin' => 'Accounts/Auth', 'controller' => 'Users', 'action' => 'render-captcha']) ?>' +
-        '/' + encodeURIComponent($('input[name=username]').val()),
-            beforeSend: function () {
-                $('#div-captcha').html('<?= $this->Html->image('ajax-loader.gif', ['alt' => 'loading...']) ?>');
-            }
-        })
-        .done(function (data) {
-            $('#div-captcha').html(data);
-        });
+                '/' + encodeURIComponent($('input[name=username]').val()),
+                beforeSend: function () {
+                    $('#div-captcha').html('<?= $this->Html->image('ajax-loader.gif', ['alt' => 'loading...']) ?>');
+                }
+            })
+                .done(function (data) {
+                    $('#div-captcha').html(data);
+                });
+        }
     });
 
     $( window ).load(function() {

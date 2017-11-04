@@ -113,16 +113,9 @@ $cakeDescription = 'Projeto CodeRace';
     <div class="row">
         <div class="small-12 columns">
             <p class="slogan">Projeto CodeRace</p>
-            <p class="links">
-                <a href="#">Home</a>
-                <a href="#">WikiFarroupilha</a>
-                <a href="#">Serviços</a>
-                <a href="#">Contatos</a>
-            </p>
             <p class="copywrite">Instituto Federal Farroupilha - Campus São Vicente do Sul</p>
-            <p class="copywrite">Coordenação de Tecnologia da Informação</p>
-            <p class="copywrite">© CTI <?= date('Y') ?></p>
-            <p class="copywrite">ctisistemas.svs@iffarroupilha.edu.br - (55) 3257-4106</p>
+            <p class="copywrite">Jefferson Vantuir © <?= date('Y') ?></p>
+            <p class="copywrite">sup.aplicacao@gmail.com - (xx) 9999-999</p>
         </div>
     </div>
 </footer>

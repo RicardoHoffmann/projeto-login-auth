@@ -52,8 +52,7 @@ $cakeDescription = 'CodeRace';
         <div class="small-12 columns">
             <p class="slogan">Projeto CodeRace</p>
             <p class="copywrite">Instituto Federal Farroupilha - Campus São Vicente do Sul</p>
-            <p class="copywrite">Equipe Desenvolvedoras</p>
-            <p class="copywrite">© Equipe <?= date('Y') ?></p>
+            <p class="copywrite">Jefferson Vantuir © <?= date('Y') ?></p>
             <p class="copywrite">sup.aplicacao@gmail.com - (xx) 9999-999</p>
         </div>
     </div>

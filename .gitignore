@@ -6,6 +6,7 @@
 /logs/*
 /tmp/*
 /vendor/*
+/.idea/*
 
 # OS generated files #
 ######################

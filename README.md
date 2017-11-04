@@ -6,6 +6,28 @@ Projeto que enfatiza Login, autentificação e permissões por usuários e grupo
 ```
 git clone https://github.com/jeffersonbehling/projeto-login-auth.git
 ```
+Depois de clonar o projeto, execute no terminal:
+```
+cd projeto-login-auth
+```
+Depois disso, execute: 
+```
+composer update
+```
+E por fim, crie duas pastas:
+```
+mkdir tmp
+```
+```
+mkdir logs
+```
+E dê permissões para ambas
+```
+sudo chmod 777 -R tmp/
+```
+```
+sudo chmod 777 -R logs/
+```
 
 ## 2º Passo
 - Crie a base de dados ```projeto_coderace```

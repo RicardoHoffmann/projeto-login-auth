@@ -1,0 +1,141 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-02-23 12:54+0000\n"
+"PO-Revision-Date: 2017-02-23 10:02-0300\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: nplurals=2; plural=(n > 1);\n"
+
+#: Controller/UsersController.php:93
+msgid "E-mail has been saved"
+msgstr "O e-mail foi salvo"
+
+#: Controller/UsersController.php:96
+msgid "E-mail could not be saved. Please, try again."
+msgstr "O e-mail não pôde ser salvo. Por favor, tente novamente."
+
+#: Template/Users/change_email.ctp:3 Template/Users/change_password.ctp:3
+msgid "Actions"
+msgstr "Ações"
+
+#: Template/Users/change_email.ctp:4 Template/Users/change_password.ctp:4
+msgid "My Profile"
+msgstr "Meu Perfil"
+
+#: Template/Users/change_email.ctp:11
+msgid "Please enter the new E-mail"
+msgstr "Por favor, insira o novo E-mail"
+
+#: Template/Users/change_email.ctp:12
+msgid "E-mail"
+msgstr "E-mail"
+
+#: Template/Users/change_email.ctp:14
+msgid "Save"
+msgstr "Salvar"
+
+#: Template/Users/change_password.ctp:11
+msgid "Please enter the new password"
+msgstr "Por favor, insira a nova senha"
+
+#: Template/Users/change_password.ctp:16
+msgid "Current password"
+msgstr "Senha atual"
+
+#: Template/Users/change_password.ctp:19
+msgid "Password"
+msgstr "Senha"
+
+#: Template/Users/change_password.ctp:20
+msgid "Password Confirm"
+msgstr "Confirmar Senha"
+
+#: Template/Users/change_password.ctp:23
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Users/index.ctp:38
+msgid "{0} {1}"
+msgstr ""
+
+#: Template/Users/index.ctp:45
+msgid "Change avatar"
+msgstr "Alterar avatar"
+
+#: Template/Users/index.ctp:52
+msgid "Change Password"
+msgstr "Alterar Senha"
+
+#: Template/Users/index.ctp:62
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: Template/Users/index.ctp:64
+msgid "Email"
+msgstr "E-mail"
+
+#: Template/Users/index.ctp:65
+msgid "update"
+msgstr "atualizar"
+
+#: Template/Users/index.ctp:73
+msgid "API Token"
+msgstr ""
+
+#: Template/Users/index.ctp:76
+msgid "Recent Activity"
+msgstr "Atividades Recentes"
+
+#: Template/Users/index.ctp:80
+msgid "Date/Time"
+msgstr "Data/Tempo"
+
+#: Template/Users/index.ctp:81
+msgid "IP"
+msgstr ""
+
+#: Template/Users/index.ctp:82
+msgid "Browser"
+msgstr "Navegador"
+
+#: Template/Users/index.ctp:102
+msgid "Social Accounts"
+msgstr "Contas Sociais"
+
+#: Template/Users/index.ctp:106
+msgid "Avatar"
+msgstr "Avatar"
+
+#: Template/Users/index.ctp:107
+msgid "Provider"
+msgstr "Fornecedor"
+
+#: Template/Users/index.ctp:108
+msgid "Link"
+msgstr "Link"
+
+#: Template/Users/index.ctp:115
+msgid "Link to {0}"
+msgstr "Link para {0}"
+
+#: Template/Users/index.ctp:97
+msgid "Successful"
+msgstr "Bem Sucedido"
+
+#: Template/Users/index.ctp:99
+msgid "Unsuccessful"
+msgstr "Mal Sucedido"
+
+#: Template/Users/index.ctp:83
+msgid "Login Attempt"
+msgstr "Tentativa de Login"

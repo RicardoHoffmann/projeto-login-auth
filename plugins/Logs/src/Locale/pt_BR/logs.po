@@ -1,0 +1,88 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-09-23 13:44+0000\n"
+"PO-Revision-Date: 2016-09-27 09:22-0300\n"
+"Last-Translator: Jefferson Vantuir <jeffersonbehling@hotmail.com>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;  plural=(n != 1);\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: Controller/RegistrarsController.php:48
+msgid "The log has been deleted."
+msgstr "O Log foi excluído."
+
+#: Controller/RegistrarsController.php:50
+msgid "The log could not be deleted. Please, try again."
+msgstr "O Log não pôde ser excluído. Por favor, tente novamente."
+
+#: Template/Registrars/index.ctp:3;14 Template/Registrars/view.ctp:3
+msgid "Actions"
+msgstr "Ações"
+
+#: Template/Registrars/index.ctp:4
+msgid "Home"
+msgstr "Página Inicial"
+
+#: Template/Registrars/index.ctp:8
+msgid "Logs"
+msgstr "Logs"
+
+#: Template/Registrars/index.ctp:9
+msgid "Filter by level"
+msgstr "Filtrar por Nível"
+
+#: Template/Registrars/index.ctp:14
+msgid "All Levels"
+msgstr "Todos os Níveis"
+
+#: Template/Registrars/index.ctp:23
+msgid "View More"
+msgstr "Veja Mais"
+
+#: Template/Registrars/index.ctp:24
+msgid "Delete"
+msgstr "Excluir"
+
+#: Template/Registrars/index.ctp:24 Template/Registrars/view.ctp:5
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Tem certeza que deseja excluir # {0}?"
+
+#: Template/Registrars/index.ctp:32
+msgid "previous"
+msgstr "anterior"
+
+#: Template/Registrars/index.ctp:34
+msgid "next"
+msgstr "próximo"
+
+#: Template/Registrars/view.ctp:4
+msgid "List Logs"
+msgstr "Lista de Logs"
+
+#: Template/Registrars/view.ctp:5
+msgid "Delete Log"
+msgstr "Excluir Log"
+
+#: Template/Registrars/view.ctp:12
+msgid "Id"
+msgstr ""
+
+#: Template/Registrars/view.ctp:16
+msgid "Level"
+msgstr "Nível"
+
+#: Template/Registrars/view.ctp:20
+msgid "Created"
+msgstr "Criado"
+
+#: Template/Registrars/view.ctp:25
+msgid "Message"
+msgstr "Mensagem"

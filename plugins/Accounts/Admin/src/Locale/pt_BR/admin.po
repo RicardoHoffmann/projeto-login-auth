@@ -1,0 +1,497 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-06-06 11:37+0000\n"
+"PO-Revision-Date: 2017-06-06 08:59-0300\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: Controller/GroupsController.php:107
+msgid "User Include."
+msgstr "Usuário Incluído."
+
+#: Controller/GroupsController.php:110
+msgid "User not include. Please, try again."
+msgstr "Usuário não incluído. Por favor, tente novamente."
+
+#: Controller/GroupsController.php:129
+msgid "User removed."
+msgstr "Usuário removido."
+
+#: Controller/GroupsController.php:132
+msgid "User not removed. Please, try again."
+msgstr "Usuário não removido. Por favor, tente novamente."
+
+#: Controller/GroupsController.php:173;195
+msgid "The group has been saved."
+msgstr "O grupo foi salvo."
+
+#: Controller/GroupsController.php:177;199
+msgid "The group could not be saved. Please, try again."
+msgstr "O grupo não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/UsersController.php:118;129;137
+msgid "Password could not be changed"
+msgstr "Senha não pôde ser alterada"
+
+#: Controller/UsersController.php:126
+msgid "Password has been changed successfully"
+msgstr "Senha alterada com sucesso"
+
+#: Controller/UsersController.php:133
+msgid "User was not found"
+msgstr "Usuário não encontrado"
+
+#: Controller/UsersController.php:135
+msgid "The current password does not match"
+msgstr "A senha atual não corresponde"
+
+#: Controller/UsersController.php:169
+msgid "The {0} has been saved"
+msgstr "O {0} foi salvo"
+
+#: Controller/UsersController.php:172
+msgid "The {0} could not be saved"
+msgstr "O {0} não pôde ser salvo"
+
+#: Controller/UsersController.php:223
+msgid "The user has specialized in Student"
+msgstr "Usuário foi especializado em Estudante"
+
+#: Controller/UsersController.php:225
+msgid "It was not possible to specialize the user in Student"
+msgstr "Não foi possível especializar o usuário em Estudante"
+
+#: Controller/UsersController.php:229;252;275
+msgid "The User is not associated with Person table"
+msgstr "O Usuário não está associado a tabela 'persons'"
+
+#: Controller/UsersController.php:247
+msgid "The user has specialized in Outsourced"
+msgstr "Usuário foi especializado em Terceirizado"
+
+#: Controller/UsersController.php:249
+msgid "It was not possible to specialize the user in Outsourced"
+msgstr "Não foi possível especializar o usuário em Terceirizado"
+
+#: Controller/UsersController.php:270
+msgid "The user has specialized in Scholarship"
+msgstr "Usuário foi especializado em Bolsista"
+
+#: Controller/UsersController.php:272
+msgid "It was not possible to specialize the user in Scholarship"
+msgstr "Não foi possível especializar o usuário em Bolsista"
+
+#: Controller/UsersController.php:376;393;410
+msgid "Specialization has been removed"
+msgstr "Especialização removida"
+
+#: Controller/UsersController.php:378;395;412
+msgid "Specialization could not be removed. Please try again"
+msgstr "A especialização não pôde ser removida. Por favor, tente novamente"
+
+#: Controller/UsersController.php:447
+msgid "All changes have been saved."
+msgstr "Todas as alterações foram salvas."
+
+#: Controller/UsersController.php:451
+msgid "There was an error adding some specialization."
+msgstr "Ocorreu um erro ao adicionar alguma especialização."
+
+#: Controller/UsersController.php:456
+msgid "There was an error removing some expertise."
+msgstr "Ocorreu um erro ao remover alguma especialização."
+
+#: Controller/UsersController.php:539
+msgid "Failed to register Employee. Please try again."
+msgstr "Falha ao registrar Servidor. Por favor, tente novamente."
+
+#: Template/Groups/add.ctp:4
+#: Template/Groups/edit.ctp:4
+#: Template/Groups/view.ctp:5
+msgid "List Groups"
+msgstr "Lista de Grupos"
+
+#: Template/Groups/add.ctp:5
+#: Template/Groups/edit.ctp:5
+#: Template/Groups/view.ctp:29
+#: Template/Groups/view_add_users.ctp:20
+#: Template/Users/add.ctp:4
+#: Template/Users/change_password.ctp:4
+#: Template/Users/edit.ctp:4
+#: Template/Users/view.ctp:4
+msgid "List Users"
+msgstr "Lista de Usuários"
+
+#: Template/Groups/add.ctp:6
+#: Template/Groups/edit.ctp:6
+msgid "New User"
+msgstr "Novo Usuário"
+
+#: Template/Groups/add.ctp:12
+msgid "Add Group"
+msgstr "Adicionar Grupo"
+
+#: Template/Groups/add.ctp:14
+#: Template/Groups/edit.ctp:14
+#: Template/Groups/index.ctp:19
+#: Template/Groups/view.ctp:17
+msgid "Name"
+msgstr "Nome"
+
+#: Template/Groups/add.ctp:17
+#: Template/Groups/edit.ctp:17
+#: Template/Users/add.ctp:35
+#: Template/Users/change_password.ctp:24
+#: Template/Users/edit.ctp:27
+#: Template/Users/specialize_user.ctp:130
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Groups/edit.ctp:3
+#: Template/Groups/index.ctp:3;21
+#: Template/Groups/view.ctp:3
+#: Template/Groups/view_add_users.ctp:14;34;74
+#: Template/Users/add.ctp:3
+#: Template/Users/change_password.ctp:3
+#: Template/Users/edit.ctp:3
+#: Template/Users/index.ctp:14;32
+#: Template/Users/specialize_user.ctp:94
+#: Template/Users/view.ctp:3
+msgid "Actions"
+msgstr "Ações"
+
+#: Template/Groups/edit.ctp:12
+#: Template/Groups/view.ctp:4
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: Template/Groups/index.ctp:4
+#: Template/Groups/view.ctp:6
+msgid "New Group"
+msgstr "Novo Grupo"
+
+#: Template/Groups/index.ctp:8
+#: Template/Users/view.ctp:31
+msgid "Groups"
+msgstr "Grupos"
+
+#: Template/Groups/index.ctp:12
+msgid "Query by Name"
+msgstr "Procurar por Nome"
+
+#: Template/Groups/index.ctp:13
+#: Template/Groups/view_add_users.ctp:25
+#: Template/Users/index.ctp:23
+msgid "Filter"
+msgstr "Filtrar"
+
+#: Template/Groups/index.ctp:20
+#: Template/Groups/view.ctp:21
+#: Template/Users/view.ctp:103
+msgid "Created"
+msgstr "Criado"
+
+#: Template/Groups/index.ctp:30
+msgid "Add Users in the Group"
+msgstr "Adicionar Usuário no Grupo"
+
+#: Template/Groups/index.ctp:31
+#: Template/Groups/view_add_users.ctp:50;91
+#: Template/Users/index.ctp:47
+msgid "View"
+msgstr "Visualizar"
+
+#: Template/Groups/index.ctp:32
+#: Template/Users/index.ctp:49
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/Groups/index.ctp:40
+#: Template/Groups/view_add_users.ctp:59
+#: Template/Users/index.ctp:58
+msgid "previous"
+msgstr "anterior"
+
+#: Template/Groups/index.ctp:42
+#: Template/Groups/view_add_users.ctp:61
+#: Template/Users/index.ctp:60
+msgid "next"
+msgstr "próximo"
+
+#: Template/Groups/view.ctp:13
+#: Template/Users/view.ctp:11
+msgid "Id"
+msgstr "ID"
+
+#: Template/Groups/view.ctp:25
+#: Template/Users/view.ctp:107
+msgid "Modified"
+msgstr "Modificado"
+
+#: Template/Groups/view.ctp:34
+msgid "None User"
+msgstr "Nenhum Usuário"
+
+#: Template/Groups/view_add_users.ctp:15
+#: Template/Users/index.ctp:15
+#: Template/Users/specialize_user.ctp:95
+msgid "Home"
+msgstr "Página Inicial"
+
+#: Template/Groups/view_add_users.ctp:24
+#: Template/Users/index.ctp:22
+msgid "Query by Username, First or Last name"
+msgstr "Procurar por Nome de Usuário, Nome ou Sobrenome"
+
+#: Template/Groups/view_add_users.ctp:31;71
+#: Template/Users/index.ctp:29
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: Template/Groups/view_add_users.ctp:32;72
+#: Template/Users/add.ctp:20
+#: Template/Users/edit.ctp:13
+#: Template/Users/index.ctp:30
+#: Template/Users/view.ctp:15
+msgid "Username"
+msgstr "Nome do Usuário"
+
+#: Template/Groups/view_add_users.ctp:33;73
+#: Template/Users/add.ctp:21
+#: Template/Users/edit.ctp:14
+#: Template/Users/index.ctp:31
+#: Template/Users/view.ctp:19
+msgid "Email"
+msgstr "E-mail"
+
+#: Template/Groups/view_add_users.ctp:41;82
+#: Template/Users/index.ctp:39
+msgid "Disable"
+msgstr "Desabilitar"
+
+#: Template/Groups/view_add_users.ctp:49
+msgid "Add in the Group"
+msgstr "Adicionar ao Grupo"
+
+#: Template/Groups/view_add_users.ctp:66
+msgid "User List in the Group"
+msgstr "Lista de Usuários no Grupo"
+
+#: Template/Groups/view_add_users.ctp:90
+msgid "Remove from Group"
+msgstr "Remover do Grupo"
+
+#: Template/Groups/view_add_users.ctp:96
+msgid "The Group is Empty"
+msgstr "O Grupo está vázio"
+
+#: Template/Users/add.ctp:5
+msgid "List Audit Logs"
+msgstr "Lista de Logs de Auditoria"
+
+#: Template/Users/add.ctp:6
+msgid "New Audit Log"
+msgstr "Novo Log de Auditoria"
+
+#: Template/Users/add.ctp:7
+msgid "List Persons"
+msgstr "Lista de Pessoas"
+
+#: Template/Users/add.ctp:8
+msgid "New Person"
+msgstr "Nova Pessoa"
+
+#: Template/Users/add.ctp:9
+msgid "List Social Accounts"
+msgstr "Lista de Contas Sociais"
+
+#: Template/Users/add.ctp:10
+msgid "New Social Account"
+msgstr "Nova Conta Social"
+
+#: Template/Users/add.ctp:11
+msgid "List User Access Logs"
+msgstr "Lista de Logs de Acessos do Usuário"
+
+#: Template/Users/add.ctp:12
+msgid "New User Access Log"
+msgstr "Novo Log de Acesso do Usuário"
+
+#: Template/Users/add.ctp:18
+msgid "Add User"
+msgstr "Adicionar Usuário"
+
+#: Template/Users/add.ctp:22
+#: Template/Users/change_password.ctp:20
+msgid "Password"
+msgstr "Senha"
+
+#: Template/Users/add.ctp:23
+#: Template/Users/edit.ctp:15
+#: Template/Users/view.ctp:23
+msgid "First Name"
+msgstr "Nome"
+
+#: Template/Users/add.ctp:24
+#: Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:27
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Template/Users/add.ctp:25
+#: Template/Users/edit.ctp:17
+#: Template/Users/view.ctp:79
+msgid "Token"
+msgstr "Token"
+
+#: Template/Users/add.ctp:26
+#: Template/Users/edit.ctp:18
+#: Template/Users/view.ctp:91
+msgid "Token Expires"
+msgstr "Token Expira"
+
+#: Template/Users/add.ctp:28
+#: Template/Users/edit.ctp:20
+#: Template/Users/view.ctp:95
+msgid "Activation Date"
+msgstr "Data de Ativação"
+
+#: Template/Users/add.ctp:30
+#: Template/Users/edit.ctp:22
+#: Template/Users/view.ctp:111
+msgid "Active"
+msgstr "Ativo"
+
+#: Template/Users/add.ctp:31
+#: Template/Users/edit.ctp:23
+#: Template/Users/view.ctp:115
+msgid "Is Superuser"
+msgstr "É Superusuário"
+
+#: Template/Users/add.ctp:32
+#: Template/Users/edit.ctp:24
+#: Template/Users/view.ctp:87
+msgid "Role"
+msgstr "Função"
+
+#: Template/Users/change_password.ctp:12
+msgid "Please enter the new password for '"
+msgstr "Por favor, informe a nova senha para "
+
+#: Template/Users/change_password.ctp:17
+msgid "Current password"
+msgstr "Senha atual"
+
+#: Template/Users/change_password.ctp:21
+msgid "Password Confirm"
+msgstr "Confirmar Senha"
+
+#: Template/Users/edit.ctp:11
+msgid "Edit User"
+msgstr "Editar Usuário"
+
+#: Template/Users/employees_categories.ctp:3
+msgid "Select Specialization"
+msgstr "Selecionar Especialização"
+
+#: Template/Users/employees_categories.ctp:10
+msgid "Save"
+msgstr "Salvar"
+
+#: Template/Users/index.ctp:19
+msgid "Accounts"
+msgstr "Contas"
+
+#: Template/Users/index.ctp:48
+msgid "Change Password"
+msgstr "Alterar Senha"
+
+#: Template/Users/index.ctp:50
+msgid "Specialize"
+msgstr "Especializar"
+
+#: Template/Users/specialize_user.ctp:102
+msgid "Specializations"
+msgstr "Especializações"
+
+#: Template/Users/specialize_user.ctp:107
+#: Template/Users/view.ctp:60
+msgid "Student"
+msgstr "Estudante"
+
+#: Template/Users/specialize_user.ctp:118;156;170
+msgid "Remove Specilization"
+msgstr "Remover Especialização"
+
+#: Template/Users/specialize_user.ctp:125
+msgid "Add Student"
+msgstr "Adicionar Estudante"
+
+#: Template/Users/specialize_user.ctp:127
+msgid "RG"
+msgstr "RG"
+
+#: Template/Users/specialize_user.ctp:128
+msgid "Birthday"
+msgstr "Data de Nascimento"
+
+#: Template/Users/specialize_user.ctp:135
+msgid "Employee"
+msgstr "Servidor"
+
+#: Template/Users/specialize_user.ctp:149
+#: Template/Users/view.ctp:68
+msgid "Outsourced"
+msgstr "Terceirizado"
+
+#: Template/Users/specialize_user.ctp:152;166
+msgid "Add Specilization"
+msgstr "Adicionar Especialização"
+
+#: Template/Users/specialize_user.ctp:163
+#: Template/Users/view.ctp:72
+msgid "Scholarship"
+msgstr "Bolsista"
+
+#: Template/Users/view.ctp:37
+msgid "None Group"
+msgstr "Nenhum Grupo"
+
+#: Template/Users/view.ctp:49
+msgid "Specialization (s)"
+msgstr "Especializações"
+
+#: Template/Users/view.ctp:55
+msgid "None Specialization"
+msgstr "Nenhuma Especialização"
+
+msgid "New Category"
+msgstr "Nova Categoria"
+
+#: Template/Users/view.ctp:83
+msgid "Api Token"
+msgstr ""
+
+#: Template/Users/view.ctp:99
+msgid "Tos Date"
+msgstr ""
+
+#: Template/Users/view.ctp:112;116
+msgid "Yes"
+msgstr "Sim"
+
+#: Template/Users/view.ctp:112;116
+msgid "No"
+msgstr "Não"
+

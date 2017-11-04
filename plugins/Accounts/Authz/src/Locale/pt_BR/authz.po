@@ -1,0 +1,415 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-08-17 13:12+0000\n"
+"PO-Revision-Date: 2017-03-06 11:28-0300\n"
+"Last-Translator: Jefferson Vantuir <jeffersonbehling@hotmail.com>\n"
+"Language-Team: LANGUAGE <jeffersonbehling@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: Controller/AllUsersController.php:86 Controller/GroupsController.php:207
+#: Controller/UsersController.php:107
+msgid "The authorization has been deleted."
+msgstr "A autorização foi excluída."
+
+#: Controller/AllUsersController.php:88 Controller/GroupsController.php:209
+#: Controller/UsersController.php:109
+msgid "The authorization could not be deleted. Please, try again."
+msgstr "A autorização não pôde ser excluída. Por favor, tente novamente."
+
+#: Controller/MenusController.php:64;100
+msgid "The menu has been saved."
+msgstr "O menu foi salvo."
+
+#: Controller/MenusController.php:67;103
+msgid "The menu could not be saved. Please, try again."
+msgstr "O menu não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/MenusController.php:133
+msgid "The menu has been deleted."
+msgstr "O menu foi excluído."
+
+#: Controller/MenusController.php:135
+msgid "The menu could not be deleted. Please, try again."
+msgstr "O menu não pôde ser excluído. Por favor, tente novamente."
+
+#: Template/AllUsers/authorization.ctp:6
+#: Template/AllUsers/list_authorizations.ctp:8 Template/AllUsers/menu.ctp:3
+#: Template/Groups/authorization.ctp:6 Template/Groups/group_menu.ctp:3
+#: Template/Groups/index.ctp:22 Template/Groups/list_group_authorizations.ctp:8
+#: Template/Menus/add.ctp:3 Template/Menus/edit.ctp:3
+#: Template/Menus/index.ctp:3 Template/Menus/view.ctp:3;58
+#: Template/Users/authorization.ctp:6 Template/Users/index.ctp:14
+#: Template/Users/list_user_authorizations.ctp:8 Template/Users/user_menu.ctp:3
+#: Template/Users/view.ctp:3 Template/Groups/index.ctp:3
+#: Template/Groups/view.ctp:3
+msgid "Actions"
+msgstr "Ações"
+
+#: Template/AllUsers/authorization.ctp:7
+msgid "Menu"
+msgstr "Menu"
+
+#: Template/AllUsers/authorization.ctp:8 Template/AllUsers/menu.ctp:4
+#: Template/Groups/authorization.ctp:8 Template/Groups/group_menu.ctp:4
+#: Template/Groups/index.ctp:31 Template/Users/authorization.ctp:8
+#: Template/Users/index.ctp:48 Template/Users/user_menu.ctp:4
+msgid "Authorization"
+msgstr "Autorização"
+
+#: Template/AllUsers/authorization.ctp:13
+msgid "Authorization User &nbsp;::&nbsp; All Users"
+msgstr "Autorização do usuário &nbsp;::&nbsp; Todos os Usuários"
+
+#: Template/AllUsers/authorization.ctp:17
+#: Template/AllUsers/list_authorizations.ctp:5
+#: Template/Groups/authorization.ctp:17
+#: Template/Groups/list_group_authorizations.ctp:5
+#: Template/Users/authorization.ctp:17
+#: Template/Users/list_user_authorizations.ctp:5
+msgid "Controller"
+msgstr "Controlador"
+
+#: Template/AllUsers/authorization.ctp:21
+#: Template/AllUsers/list_authorizations.ctp:6
+#: Template/Groups/authorization.ctp:21
+#: Template/Groups/list_group_authorizations.ctp:6 Template/Menus/view.ctp:30
+#: Template/Users/authorization.ctp:21
+#: Template/Users/list_user_authorizations.ctp:6
+msgid "Action"
+msgstr "Ação"
+
+#: Template/AllUsers/authorization.ctp:24 Template/Groups/authorization.ctp:24
+#: Template/Users/authorization.ctp:24
+msgid "Access Type"
+msgstr "Tipo de Acesso"
+
+#: Template/AllUsers/authorization.ctp:26 Template/Groups/authorization.ctp:26
+#: Template/Users/authorization.ctp:26
+msgid "Add"
+msgstr "Adicionar"
+
+#: Template/AllUsers/list_authorizations.ctp:4
+#: Template/Groups/list_group_authorizations.ctp:4
+#: Template/Users/list_user_authorizations.ctp:4
+msgid "Plugin"
+msgstr "Plugin"
+
+#: Template/AllUsers/list_authorizations.ctp:7
+#: Template/Groups/list_group_authorizations.ctp:7
+#: Template/Users/list_user_authorizations.ctp:7
+msgid "Authorized"
+msgstr "Autorizado"
+
+#: Template/AllUsers/list_authorizations.ctp:19
+#: Template/Groups/list_group_authorizations.ctp:19
+#: Template/Users/list_user_authorizations.ctp:19
+msgid "Access Granted"
+msgstr "Acesso Concedido"
+
+#: Template/AllUsers/list_authorizations.ctp:21
+#: Template/Groups/list_group_authorizations.ctp:21
+#: Template/Users/list_user_authorizations.ctp:21
+msgid "Access Denied"
+msgstr "Acesso Negado"
+
+#: Template/AllUsers/list_authorizations.ctp:24
+#: Template/Groups/list_group_authorizations.ctp:24 Template/Menus/edit.ctp:5
+#: Template/Menus/view.ctp:72 Template/Users/list_user_authorizations.ctp:24
+msgid "Delete"
+msgstr "Excluir"
+
+#: Template/AllUsers/list_authorizations.ctp:24
+#: Template/Groups/list_group_authorizations.ctp:24 Template/Menus/edit.ctp:7
+#: Template/Menus/view.ctp:5;72 Template/Users/list_user_authorizations.ctp:24
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Tem certeza que deseja excluir # {0}?"
+
+#: Template/AllUsers/menu.ctp:8 Template/Groups/group_menu.ctp:8
+#: Template/Users/user_menu.ctp:8
+msgid "Menu Access"
+msgstr "Acesse o Menu"
+
+#: Template/AllUsers/menu.ctp:15 Template/Groups/group_menu.ctp:15
+#: Template/Users/user_menu.ctp:15
+msgid "There is no menu authorized"
+msgstr "Não há nenhum menu autorizado"
+
+#: Template/Groups/authorization.ctp:7
+msgid "Group Menu"
+msgstr "Menu do Grupo"
+
+#: Template/Groups/authorization.ctp:13
+msgid "Authorization Group"
+msgstr "Autorização do Grupo"
+
+#: Template/Groups/index.ctp:10 Template/Users/index.ctp:20
+msgid "Permissions"
+msgstr "Permissões"
+
+#: Template/Groups/index.ctp:13
+msgid "Query by Name"
+msgstr "Procurar por Nome"
+
+#: Template/Groups/index.ctp:14 Template/Users/index.ctp:24
+msgid "Filter"
+msgstr "Filtrar"
+
+#: Template/Groups/index.ctp:20 Template/Menus/view.ctp:26;55
+#: Template/Groups/view.ctp:17
+msgid "Name"
+msgstr "Nome"
+
+#: Template/Groups/index.ctp:21 Template/Users/view.ctp:55
+#: Template/Groups/view.ctp:21
+msgid "Created"
+msgstr "Criado"
+
+#: Template/Groups/index.ctp:32 Template/Menus/view.ctp:70
+#: Template/Users/index.ctp:49
+msgid "View"
+msgstr "Visualizar"
+
+#: Template/Groups/index.ctp:40 Template/Users/index.ctp:58
+msgid "previous"
+msgstr "anterior"
+
+#: Template/Groups/index.ctp:42 Template/Users/index.ctp:60
+msgid "next"
+msgstr "próximo"
+
+#: Template/Groups/view.ctp:34
+msgid "None User"
+msgstr "Nenhum Usuário"
+
+#: Template/Menus/add.ctp:4 Template/Menus/edit.ctp:10
+#: Template/Menus/view.ctp:6
+msgid "List Menus"
+msgstr "Lista de Menus"
+
+#: Template/Menus/add.ctp:10
+msgid "Add Menu"
+msgstr "Adicionar Menu"
+
+#: Template/Menus/add.ctp:12 Template/Menus/edit.ctp:18
+msgid "parent_id"
+msgstr ""
+
+#: Template/Menus/add.ctp:13 Template/Menus/edit.ctp:19
+msgid "name"
+msgstr "Nome"
+
+#: Template/Menus/add.ctp:14 Template/Menus/edit.ctp:20
+msgid "plugin"
+msgstr "Plugin"
+
+#: Template/Menus/add.ctp:15 Template/Menus/edit.ctp:21
+msgid "controller"
+msgstr "Controlador"
+
+#: Template/Menus/add.ctp:16 Template/Menus/edit.ctp:22
+msgid "action"
+msgstr "Ação"
+
+#: Template/Menus/add.ctp:17 Template/Menus/edit.ctp:23
+msgid "external_url"
+msgstr ""
+
+#: Template/Menus/add.ctp:21 Template/Menus/edit.ctp:26
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/Menus/edit.ctp:16 Template/Menus/view.ctp:4
+msgid "Edit Menu"
+msgstr "Editar Menu"
+
+#: Template/Menus/index.ctp:4 Template/Menus/view.ctp:7
+msgid "New Menu"
+msgstr "Novo Menu"
+
+#: Template/Menus/index.ctp:8
+msgid "Main Menu"
+msgstr "Meu Menu"
+
+#: Template/Menus/view.ctp:5
+msgid "Delete Menu"
+msgstr "Excluir Menu"
+
+#: Template/Menus/view.ctp:8
+msgid "List Parent Menus"
+msgstr "Lista de menus pai"
+
+#: Template/Menus/view.ctp:9
+msgid "New Parent Menu"
+msgstr "Novo menu pai"
+
+#: Template/Menus/view.ctp:10
+msgid "List Actions"
+msgstr "Lista de Ações"
+
+#: Template/Menus/view.ctp:11
+msgid "New Action"
+msgstr "Nova Ação"
+
+#: Template/Menus/view.ctp:18;51 Template/Users/view.ctp:11
+#: Template/Groups/view.ctp:13
+msgid "Id"
+msgstr "Id"
+
+#: Template/Menus/view.ctp:22
+msgid "Parent Menu"
+msgstr "Menu Pai"
+
+#: Template/Menus/view.ctp:34;57
+msgid "External Url"
+msgstr "URL externa"
+
+#: Template/Menus/view.ctp:38;53
+msgid "Lft"
+msgstr "Esquerda"
+
+#: Template/Menus/view.ctp:42;54
+msgid "Rght"
+msgstr "Direita"
+
+#: Template/Menus/view.ctp:47
+msgid "Related Menus"
+msgstr "Menus relacionados"
+
+#: Template/Menus/view.ctp:52
+msgid "Parent Id"
+msgstr "Id Pai"
+
+#: Template/Menus/view.ctp:56
+msgid "Action Id"
+msgstr "Id Ação"
+
+#: Template/Menus/view.ctp:71
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/Users/authorization.ctp:7
+msgid "User Menu"
+msgstr "Menu do Usuário"
+
+#: Template/Users/authorization.ctp:13
+msgid "Authorization User"
+msgstr "Autorização de Usuário"
+
+#: Template/Users/index.ctp:23
+msgid "Query by Username, First or Last name"
+msgstr "Procurar por Nome de Usuário, Primeiro ou Último Nome"
+
+#: Template/Users/index.ctp:30
+msgid "Full Name"
+msgstr "Nome Completo"
+
+#: Template/Users/index.ctp:31 Template/Users/view.ctp:15
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: Template/Users/index.ctp:32 Template/Users/view.ctp:19
+msgid "Email"
+msgstr "E-mail"
+
+#: Template/Users/index.ctp:33
+msgid "Users"
+msgstr "Usuários"
+
+#: Template/Users/index.ctp:40
+msgid "Disable"
+msgstr "Desabilitado"
+
+#: Template/Users/view.ctp:4 Template/Groups/view.ctp:29
+msgid "List Users"
+msgstr "Lista de Usuários"
+
+#: Template/Users/view.ctp:23
+msgid "First Name"
+msgstr "Primeiro Nome"
+
+#: Template/Users/view.ctp:27
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Template/Users/view.ctp:31
+msgid "Token"
+msgstr ""
+
+#: Template/Users/view.ctp:35
+msgid "Api Token"
+msgstr ""
+
+#: Template/Users/view.ctp:39
+msgid "Role"
+msgstr "Função"
+
+#: Template/Users/view.ctp:43
+msgid "Token Expires"
+msgstr ""
+
+#: Template/Users/view.ctp:47
+msgid "Activation Date"
+msgstr "Data de Ativação"
+
+#: Template/Users/view.ctp:51
+msgid "Tos Date"
+msgstr ""
+
+#: Template/Users/view.ctp:59 Template/Groups/view.ctp:25
+msgid "Modified"
+msgstr "Modificado"
+
+#: Template/Users/view.ctp:63
+msgid "Active"
+msgstr "Ativo"
+
+#: Template/Users/view.ctp:64;68
+msgid "Yes"
+msgstr "Sim"
+
+#: Template/Users/view.ctp:64;68
+msgid "No"
+msgstr "Não"
+
+#: Template/Users/view.ctp:67
+msgid "Is Superuser"
+msgstr "É Superusuário"
+
+#: Template/Groups/index.ctp:4 Template/Groups/view.ctp:6
+msgid "New Group"
+msgstr "Novo Grupo"
+
+#: Template/Groups/index.ctp:5
+msgid "List User Groups"
+msgstr "Lista de Grupos de Usuários"
+
+#: Template/Groups/index.ctp:6
+msgid "New User Group"
+msgstr "Novo Grupo de Usuários"
+
+#: Template/Users/index.ctp:15
+msgid "Home"
+msgstr "Página Inicial"
+
+#: Template/Groups/view.ctp:4
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: Template/Groups/view.ctp:5
+msgid "List Groups"
+msgstr "Lista de Grupos"
+
+msgid "Prefix"
+msgstr "Prefixo"
+
+msgid "Extension"
+msgstr "Extensão"

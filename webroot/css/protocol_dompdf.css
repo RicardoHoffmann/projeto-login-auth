@@ -1,0 +1,78 @@
+.requests {
+    text-align: center;
+    margin: 15px;
+    font-family: "Sans-Serif";
+}
+table {
+    border-collapse: collapse;
+    text-align: justify !important;
+    position:relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Sans-Serif";
+}
+
+.producer-table th {
+    width: 10em;
+    padding: 3px 0 3px 10px;
+}
+
+.producer-table {
+    font-size: 20px;
+}
+
+.samples-table th, td {
+    padding: 3px 0 3px 10px;
+}
+
+.samples-table {
+    font-size: 21px;
+}
+
+th {
+    text-align: justify !important;
+    font-weight: normal;
+    border: 1px solid !important;
+}
+
+tr td {
+    border:1px solid;
+}
+
+.producer-table td {
+    padding: 3px 0 3px 10px;
+    width: 45em;
+}
+
+.samples-table th {
+    background-color: #008000;
+}
+
+.protocol-obs {
+    margin-top: 2%;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+h4 {
+    font-family: "Sans-Serif";
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.img-labsoils {
+    margin-left: -4%;
+    width: 1170px;
+    height: 170px;
+}
+
+.key-validator {
+    text-align: justify;
+    margin-left: 140px;
+    margin-right: 140px;
+    font-family: "Sans-Serif";
+    font-size: 20px;
+    margin-top: 50px;
+}

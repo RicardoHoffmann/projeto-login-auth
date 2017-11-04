@@ -1,0 +1,104 @@
+div.chenistry-reports {
+    text-align: center;
+    margin: 40px 80px 40px 80px;
+    font-family: "Sans-Serif";
+}
+
+div#header {
+    margin-bottom: 1%;
+}
+
+div.chenistry-reports p {
+    font-size: 20px;
+}
+
+div.chenistry-reports h5 {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+table, td, th {
+    text-align: center;
+}
+
+.logo-svs {
+    margin-top: 15px;
+    height: 190px;
+    width: 180px;
+    float: left;
+}
+
+.logo-solos {
+    margin-top: 15px;
+    float: right;
+}
+
+div.info {
+    text-align: center;
+    margin-top: 3%;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h4.label {
+    padding-top: 1%;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.info-client {
+    text-align: justify !important;
+    font-size: 20px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.info-client h3 {
+    text-align: center !important;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+th.datas {
+    font-weight: normal;
+}
+
+table.left {
+    float: left;
+}
+
+table.right {
+    margin-right: 20%;
+    float: right;
+}
+
+table.tables {
+    border-collapse: collapse;
+    text-align: justify !important;
+    position:relative;
+    font-family: "Sans-Serif";
+    font-size: 21px;
+    width: 100%;
+}
+
+.tables th {
+    text-align: center;
+    background-color: #329F41;
+    padding: 2px 10px 2px 10px;
+}
+
+.tables tr {
+    text-align: center !important;
+}
+
+footer {
+    position:absolute;
+    bottom:50px;
+    width: 100%;
+    font-size: 22px;
+    text-align: justify;
+    font-family: "Sans-Serif";
+}

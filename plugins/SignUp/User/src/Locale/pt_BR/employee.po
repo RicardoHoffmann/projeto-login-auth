@@ -1,0 +1,347 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-05-31 14:04+0000\n"
+"PO-Revision-Date: 2016-05-31 11:16-0300\n"
+"Last-Translator: Jefferson Vantuir <jeffersonbehling@hotmail.com>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= (n != 1);\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: Controller/EmployeesCategoriesController.php:61;86
+msgid "The employees category could not be saved. Please, try again."
+msgstr "A Categoria de Servidores não pôde ser salva. Por favor, tente novamente."
+
+#: Controller/EmployeesCategoriesController.php:82
+msgid "The employees category has been saved."
+msgstr "A Categoria de Servidores foi salva."
+
+#: Controller/EmployeesCategoriesController.php:104
+msgid "The employees category has been deleted."
+msgstr "A Categoria de Servidores foi excluída"
+
+#: Controller/EmployeesCategoriesController.php:106
+msgid "The employees category could not be deleted. Please, try again."
+msgstr "A Categoria de Servidores não pôde ser excluída. Por favor, tente novamente."
+
+#: Controller/HumanResourcesEmailsController.php:34;55
+msgid "The human resources email has been saved."
+msgstr "O E-mail dos Recursos Humanos foi salvo."
+
+#: Controller/HumanResourcesEmailsController.php:37;58
+msgid "The human resources email could not be saved. Please, try again."
+msgstr "O E-mail dos Recursos Humanos não pôde ser salvo. Por favor, tente novamente."
+
+#: Controller/RecordsController.php:22
+msgid "Logoff before continue"
+msgstr "Faça Logoff antes de continuar"
+
+#: Controller/RecordsController.php:39
+msgid "CPF already exists"
+msgstr "CPF já está em uso"
+
+#: Controller/RecordsController.php:84
+msgid "Please, fill your first name."
+msgstr "Por favor, preencha seu nome"
+
+#: Controller/RecordsController.php:85
+msgid "Please, fill your last name."
+msgstr "msgstr ""Por favor, preencha seu sobrenome"
+
+#: Controller/RequestAccountController.php:78
+msgid "The username cold not be generated"
+msgstr "O nome de usuário não pôde ser gerado"
+
+#: Controller/RequestAccountController.php:88
+msgid "The reCaptcha could not be validated"
+msgstr "O reCaptcha não pôde ser validado"
+
+#: Controller/RequestAccountController.php:94
+msgid "The user could not be saved"
+msgstr "O usuário não pôde ser salvo"
+
+#: Controller/RequestAccountController.php:192
+msgid "Failed to send email to the HR sector: "
+msgstr "Falha ao enviar e-mail para o setor de RH"
+
+#: Controller/VerifyAccountController.php:76
+msgid "Rejected successfully."
+msgstr "Rejeitado com Sucesso"
+
+#: Controller/VerifyAccountController.php:78
+msgid "An error occurred while rejecting user. Please, try again."
+msgstr "Ocorreu um erro enquanto rejeitava o Usuário. Por favor, tente novamente."
+
+#: Controller/VerifyAccountController.php:95
+msgid "Accepted successfully."
+msgstr "Aceito com Sucesso"
+
+#: Controller/VerifyAccountController.php:98
+msgid "An error occurred while accepting user. Please, try again."
+msgstr "Ocorreu um erro enquanto aceitava o Usuário. Por favor, tente novamente."
+
+#: Controller/VerifyAccountController.php:117;136
+msgid "Failed to send email to the user: "
+msgstr "Falha ao enviar e-mail para o Usuário: "
+
+#: Template/EmployeesCategories/add.ctp:8
+#: Template/EmployeesCategories/edit.ctp:8
+#: Template/EmployeesCategories/index.ctp:9;20
+#: Template/EmployeesCategories/view.ctp:9
+#: Template/HumanResourcesEmails/add.ctp:3
+#: Template/HumanResourcesEmails/edit.ctp:3
+#: Template/HumanResourcesEmails/index.ctp:3;14
+#: Template/Records/verify.ctp:6
+#: Template/RequestAccount/register.ctp:16
+#: Template/RequestAccount/validate.ctp:3
+#: Template/VerifyAccount/index.ctp:16
+msgid "Actions"
+msgstr "Ações"
+
+#: Template/EmployeesCategories/add.ctp:9
+#: Template/EmployeesCategories/edit.ctp:15
+#: Template/EmployeesCategories/view.ctp:12
+msgid "List Employees Categories"
+msgstr "Lista de Categorias de Servidores"
+
+#: Template/EmployeesCategories/add.ctp:15
+msgid "Add Employees Category"
+msgstr "Adicionar Categoria de Servidores"
+
+#: Template/EmployeesCategories/add.ctp:17
+#: Template/EmployeesCategories/edit.ctp:23
+#: Template/EmployeesCategories/index.ctp:19
+#: Template/EmployeesCategories/view.ctp:24
+msgid "Description"
+msgstr "Descrição"
+
+#: Template/EmployeesCategories/add.ctp:20
+#: Template/EmployeesCategories/edit.ctp:26
+#: Template/HumanResourcesEmails/add.ctp:15
+#: Template/HumanResourcesEmails/edit.ctp:16
+#: Template/Records/verify.ctp:23
+#: Template/RequestAccount/register.ctp:43
+msgid "Submit"
+msgstr "Enviar"
+
+#: Template/EmployeesCategories/edit.ctp:12
+#: Template/EmployeesCategories/index.ctp:29
+#: Template/EmployeesCategories/view.ctp:11
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Tem certeza que deseja excluir # {0}?"
+
+#: Template/EmployeesCategories/edit.ctp:21
+#: Template/EmployeesCategories/view.ctp:10
+msgid "Edit Employees Category"
+msgstr "Editar Categoria de Servidores"
+
+#: Template/EmployeesCategories/index.ctp:10
+msgid "New Category"
+msgstr "Nova Categoria"
+
+#: Template/EmployeesCategories/index.ctp:11
+msgid "Specialize Employee"
+msgstr "Especializar Servidor"
+
+#: Template/EmployeesCategories/index.ctp:15
+msgid "Employees Categories"
+msgstr "Categorias de Servidores"
+
+#: Template/EmployeesCategories/index.ctp:28
+#: Template/HumanResourcesEmails/index.ctp:23
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/EmployeesCategories/index.ctp:29
+msgid "Delete"
+msgstr "Excluir"
+
+#: Template/EmployeesCategories/index.ctp:37
+msgid "first"
+msgstr "primeiro"
+
+#: Template/EmployeesCategories/index.ctp:38
+#: Template/HumanResourcesEmails/index.ctp:32
+#: Template/RequestAccount/validate.ctp:41
+#: Template/VerifyAccount/index.ctp:57
+msgid "previous"
+msgstr "anterior"
+
+#: Template/EmployeesCategories/index.ctp:40
+#: Template/HumanResourcesEmails/index.ctp:34
+#: Template/RequestAccount/validate.ctp:43
+#: Template/VerifyAccount/index.ctp:59
+msgid "next"
+msgstr "próximo"
+
+#: Template/EmployeesCategories/index.ctp:41
+msgid "last"
+msgstr "último"
+
+#: Template/EmployeesCategories/index.ctp:43
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr "Página {{page}} de {{pages}}, mostrando {{current}} dado(s) de um total de {{count}}"
+
+#: Template/EmployeesCategories/view.ctp:11
+msgid "Delete Employees Category"
+msgstr "Excluir Categoria de Servidores"
+
+#: Template/EmployeesCategories/view.ctp:13
+msgid "New Employees Category"
+msgstr "Nova Categoria de Servidores"
+
+#: Template/EmployeesCategories/view.ctp:20
+msgid "Id"
+msgstr "ID"
+
+#: Template/HumanResourcesEmails/add.ctp:4
+#: Template/HumanResourcesEmails/edit.ctp:5
+msgid "List Emails"
+msgstr "Lista de E-mails"
+
+#: Template/HumanResourcesEmails/add.ctp:10
+msgid "Add Email"
+msgstr "Adicionar E-mail"
+
+#: Template/HumanResourcesEmails/add.ctp:12
+#: Template/HumanResourcesEmails/edit.ctp:13
+#: Template/HumanResourcesEmails/index.ctp:12
+#: Template/RequestAccount/register.ctp:31
+msgid "E-mail"
+msgstr "E-mail"
+
+#: Template/HumanResourcesEmails/edit.ctp:11
+msgid "Edit Email"
+msgstr "Editar E-mail"
+
+#: Template/HumanResourcesEmails/index.ctp:4
+msgid "New Email"
+msgstr "Novo E-mail"
+
+#: Template/HumanResourcesEmails/index.ctp:8
+msgid "Human Resources Emails"
+msgstr "E-mails do Recursos Humanos"
+
+#: Template/HumanResourcesEmails/index.ctp:13
+#: Template/RequestAccount/validate.ctp:18
+#: Template/VerifyAccount/index.ctp:30
+msgid "Created"
+msgstr "Criado"
+
+#: Template/Records/verify.ctp:7
+#: Template/RequestAccount/register.ctp:17
+msgid "Login"
+msgstr "Entrar"
+
+#: Template/Records/verify.ctp:13
+#: Template/RequestAccount/register.ctp:23
+msgid "Sign Up for Employee"
+msgstr "Inscreva-se para Servidor"
+
+#: Template/Records/verify.ctp:16
+msgid "Personal data"
+msgstr "Dados Pessoais"
+
+#: Template/Records/verify.ctp:19
+#: Template/RequestAccount/validate.ctp:15
+#: Template/VerifyAccount/index.ctp:27
+msgid "First Name"
+msgstr "Nome"
+
+#: Template/Records/verify.ctp:20
+#: Template/RequestAccount/validate.ctp:16
+#: Template/VerifyAccount/index.ctp:28
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Template/RequestAccount/register.ctp:26
+msgid "Register Account"
+msgstr "Registrar Conta"
+
+#: Template/RequestAccount/register.ctp:30
+#: Template/RequestAccount/validate.ctp:14
+#: Template/VerifyAccount/index.ctp:26
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: Template/RequestAccount/register.ctp:32
+msgid "Password"
+msgstr "Senha"
+
+#: Template/RequestAccount/register.ctp:33
+msgid "Password Confirm"
+msgstr "Confirmar Senha"
+
+#: Template/RequestAccount/register.ctp:36
+msgid "Accept TOS conditions?"
+msgstr "Aceitar Condições?"
+
+#: Template/RequestAccount/validate.ctp:4
+msgid "New User"
+msgstr "Novo Usuário"
+
+#: Template/RequestAccount/validate.ctp:5
+msgid "List Social Accounts"
+msgstr "Lista de Contas Sociais"
+
+#: Template/RequestAccount/validate.ctp:6
+msgid "New Social Account"
+msgstr "Nova Conta Social"
+
+#: Template/RequestAccount/validate.ctp:10
+#: Template/VerifyAccount/index.ctp:22
+msgid "Validations"
+msgstr "Validações"
+
+#: Template/RequestAccount/validate.ctp:17
+#: Template/VerifyAccount/index.ctp:29
+msgid "Role"
+msgstr "Função"
+
+#: Template/RequestAccount/validate.ctp:19
+#: Template/VerifyAccount/index.ctp:32
+msgid "Validation"
+msgstr "Validação"
+
+#: Template/RequestAccount/validate.ctp:31
+msgid "Accept"
+msgstr "Aceitar"
+
+#: Template/RequestAccount/validate.ctp:31
+#: Template/VerifyAccount/index.ctp:74
+msgid "Accept request?"
+msgstr "Aceitar Pedido?"
+
+#: Template/RequestAccount/validate.ctp:33
+#: Template/VerifyAccount/index.ctp:48
+msgid "Reject"
+msgstr "Rejeitar"
+
+#: Template/RequestAccount/validate.ctp:33
+#: Template/VerifyAccount/index.ctp:48
+msgid "Reject request?"
+msgstr "Rejeitar Pedido?"
+
+#: Template/VerifyAccount/index.ctp:17
+msgid "Home"
+msgstr "Página Inicial"
+
+#: Template/VerifyAccount/index.ctp:18
+msgid "Category of Employees"
+msgstr "Categorias de Servidores"
+
+#: Template/VerifyAccount/index.ctp:31
+msgid "Specialization"
+msgstr "Especialização"
+
+#: Template/VerifyAccount/index.ctp:72
+msgid "Please select a Category for Employee"
+msgstr "Por favor, selecione uma Categoria para o Servidor"

@@ -38,91 +38,48 @@
     "autoload": {
         "psr-4": {
             "App\\": "src",
-            "SignUp\\Employee\\": "./plugins/SignUp/Employee/src",
             "SignUp\\User\\": "./plugins/SignUp/User/src",
-            "SignUp\\Outsourced\\": "./plugins/SignUp/Outsourced/src",
-            "SignUp\\Student\\": "./plugins/SignUp/Student/src",
-            "SignUp\\Choose\\": "./plugins/SignUp/Choose/src",
-            "SignUp\\UsernameGenerator\\": "./plugins/SignUp/UsernameGenerator/src",
-            "PowerGrid\\": "./plugins/PowerGrid/src",
-            "Audit\\": "./plugins/Audit/src",
+	    "Audit\\": "./plugins/Audit/src",
             "Accounts\\Admin\\": "./plugins/Accounts/Admin/src",
             "Accounts\\Profile\\": "./plugins/Accounts/Profile/src",
             "Accounts\\Auth\\": "./plugins/Accounts/Auth/src",
             "Accounts\\Authz\\": "./plugins/Accounts/Authz/src",
-            "Accounts\\Import\\": "./plugins/Accounts/Import/src",
-            "Accounts\\Sync\\AcessoLivre\\": "./plugins/Accounts/Sync/AcessoLivre/src",
             "Accounts\\Base\\": "./plugins/Accounts/Base/src",
-            "Accounts\\Sync\\Sgi\\": "./plugins/Accounts/Sync/Sgi/src",
-            "Legacy\\": "./plugins/Legacy/src",
-            "Network\\": "./plugins/Network/src",
             "LoggingPack\\": "./plugins/LoggingPack/src",
-            "Logs\\": "./plugins/Logs/src",
-            "Sig\\": "./plugins/Sig/src",
-            "WikiFar\\": "./plugins/WikiFar/src"
-
+            "Logs\\": "./plugins/Logs/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "App\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests",
-            "SignUp\\Employee\\Test\\": "./plugins/SignUp/Employee/tests",
-            "SignUp\\Outsourced\\Test\\": "./plugins/SignUp/Outsourced/tests",
-            "SignUp\\Student\\Test\\": "./plugins/SignUp/Student/tests",
-            "SignUp\\Choose\\Test\\": "./plugins/SignUp/Choose/tests",
-            "SignUp\\UsernameGenerator\\Test\\": "./plugins/SignUp/UsernameGenerator/tests",
-            "PowerGrid\\Test\\": "./plugins/PowerGrid/tests",
             "Audit\\Test\\": "./plugins/Audit/tests",
             "Accounts\\Admin\\": "./plugins/Accounts/Admin/tests",
             "Accounts\\Profile\\": "./plugins/Accounts/Profile/tests",
             "Accounts\\Auth\\": "./plugins/Accounts/Auth/tests",
             "Accounts\\Authz\\": "./plugins/Accounts/Authz/tests",
-            "Accounts\\Import\\": "./plugins/Accounts/Import/tests",
-            "Accounts\\Sync\\AcessoLivre\\": "./plugins/Accounts/Sync/AcessoLivre/tests",
             "Accounts\\Base\\": "./plugins/Accounts/Base/tests",
-            "Accounts\\Sync\\Sgi\\": "./plugins/Accounts/Sync/Sgi/tests",
-            "Legacy\\": "./plugins/Legacy/tests",
             "Network\\": "./plugins/Network/tests",
             "LoggingPack\\": "./plugins/LoggingPack/src",
-            "Logs\\": "./plugins/Logs/src",
-            "Sig\\": "./plugins/Sig/src",
-            "WikiFar\\": "./plugins/WikiFar/src"
+            "Logs\\": "./plugins/Logs/src"
         }
     },
     "scripts": {
         "post-install-cmd": "App\\Console\\Installer::postInstall",
         "post-create-project-cmd": "App\\Console\\Installer::postInstall",
         "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump",
-        "db-migrate-initial": [
-            "bin/cake migrations migrate -s Migrations/contratos -c contratos",
-            "bin/cake migrations migrate -s Migrations/dbsolos -c dbsolos",
-            "bin/cake migrations migrate -s Migrations/iffarroupilha -c iffarroupilha",
-            "bin/cake migrations migrate --plugin Accounts/Sync/AcessoLivre --connection radius"
-        ],
         "db-migrate": [
             "bin/cake migrations migrate --plugin Accounts/Admin --connection default",
             "bin/cake migrations migrate --plugin Accounts/Auth --connection default",
             "bin/cake migrations migrate --plugin Accounts/Authz --connection default",
-            "bin/cake migrations migrate --plugin Accounts/Sync/AcessoLivre --connection default",
-            "bin/cake migrations migrate --plugin Accounts/Profile --connection default",
+	    "bin/cake migrations migrate --plugin Accounts/Profile --connection default",
             "bin/cake migrations migrate --plugin Audit --connection default",
-            "bin/cake migrations migrate --plugin PowerGrid --connection default",
-            "bin/cake migrations migrate --plugin SignUp/Employee --connection default",
-            "bin/cake migrations migrate --plugin SignUp/Outsourced --connection default",
-            "bin/cake migrations migrate --plugin SignUp/Student --connection default",
-            "bin/cake migrations migrate --plugin LoggingPack --connection default",
-            "bin/cake migrations migrate --plugin Network --connection default",
-            "bin/cake migrations migrate --plugin WikiFar --connection default",
-            "bin/cake migrations migrate -s Migrations/dbsolos --connection dbsolos",
-            "bin/cake migrations migrate --plugin Soils --connection default"
+	    "bin/cake migrations migrate --plugin SignUp/Student --connection default",
+            "bin/cake migrations migrate --plugin LoggingPack --connection default"
         ],
         "db-seed": [
-            "bin/cake migrations seed --connection iffarroupilha",
             "bin/cake migrations seed --plugin Accounts/Admin --connection default",
-            "bin/cake migrations seed --plugin Accounts/Authz --connection default",
-            "bin/cake migrations seed --plugin Accounts/Sync/AcessoLivre --connection radius",
-            "bin/cake migrations seed --plugin Soils --connection default"
+            "bin/cake migrations seed --plugin Accounts/Authz --connection default"
         ]
     },
     "minimum-stability": "stable",

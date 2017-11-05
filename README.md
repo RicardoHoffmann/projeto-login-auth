@@ -18,9 +18,8 @@ E por fim, crie duas pastas:
 ```
 mkdir tmp
 ```
-```
-mkdir logs
-```
+Verifique se a extensão ```php-gd``` está habilitado no arquivo ```php.ini```
+
 E dê permissões para ambas
 ```
 sudo chmod 777 -R tmp/
@@ -35,40 +34,20 @@ sudo chmod 777 -R logs/
 - Dentro de ```projeto-login-auth```
 - Execute a criação das tabelas
 ```
-bin/cake migrations migrate --plugin Accounts/Admin
-```
-```
-bin/cake migrations migrate --plugin Accounts/Auth
-```
-```
-bin/cake migrations migrate --plugin Accounts/Authz
-```
-```
-bin/cake migrations migrate --plugin Accounts/Profile
-```
-```
-bin/cake migrations migrate --plugin Audit
-```
-```
-bin/cake migrations migrate --plugin LoggingPack
+composer db-migrate
 ```
 
 ## 3º Passo
-- Popule as tabelas com alguns dados pré-definidos
+- Popule as tabelas com alguns dados pré-definidos para usuários e menus
 
 ```
-bin/cake migrations seed --plugin Accounts/Admin
+composer db-seed
 ```
 
 ###### Obs: O comando acima irá inserir dois usuários no banco de dados, na tabela ```users```
 `Usuário e Senha: superadmin`
 
 `Usuário e Senha: user` 
-
-- Criação de menus
-```
-bin/cake migrations seed --plugin Accounts/Authz
-```
 
 ## 4º Passo
 Configure um e-mail para que seja possível enviar e-mails para os Administradores do Sistema quando tem um novo usuário, para que ele possa autorizá-lo. Lembre-se de ir no gmail, e autorizar acesso para Aplicativos menos seguros em sua conta.

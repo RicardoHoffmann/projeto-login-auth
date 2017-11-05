@@ -18,9 +18,8 @@ E por fim, crie duas pastas:
 ```
 mkdir tmp
 ```
-```
-mkdir logs
-```
+Verifique se a extensão ```php-gd``` está habilitado no arquivo ```php.ini```
+
 E dê permissões para ambas
 ```
 sudo chmod 777 -R tmp/

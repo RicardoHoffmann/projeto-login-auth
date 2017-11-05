@@ -72,9 +72,8 @@
             "bin/cake migrations migrate --plugin Accounts/Admin --connection default",
             "bin/cake migrations migrate --plugin Accounts/Auth --connection default",
             "bin/cake migrations migrate --plugin Accounts/Authz --connection default",
-	    "bin/cake migrations migrate --plugin Accounts/Profile --connection default",
+	        "bin/cake migrations migrate --plugin Accounts/Profile --connection default",
             "bin/cake migrations migrate --plugin Audit --connection default",
-	    "bin/cake migrations migrate --plugin SignUp/Student --connection default",
             "bin/cake migrations migrate --plugin LoggingPack --connection default"
         ],
         "db-seed": [

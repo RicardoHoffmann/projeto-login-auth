@@ -20,7 +20,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => getenv('CAKEPHP_PRODUCTION') != 0,
+    'debug' => getenv('CAKEPHP_PRODUCTION') != 1,
 
     /**
      * Configure basic information about the application.

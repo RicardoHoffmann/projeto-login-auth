@@ -3,42 +3,95 @@
  * @var \App\View\AppView $this
  * @var \Cake\Datasource\EntityInterface $product
  */
+
+    use Cake\Routing\Router;
+    $this->layout = 'shopping'
 ?>
 <style>
-    img {
-        width: 50%;
-        height: 50%;
+    img.product-img {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 10%;
     }
+
+    ul.breadcrumb {
+        padding: 10px 16px;
+        list-style: none;
+        background-color: #eee;
+    }
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 18px;
+    }
+
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+    }
+
+    ul.breadcrumb li a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    ul.breadcrumb li a:hover {
+        color: #fec503;
+        text-decoration: none;
+    }
+
+    div.datas h1 {
+        font-size: 22px;
+    }
+
+    div.datas h2 {
+        font-size: 18px;
+    }
+
 </style>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Product'), ['action' => 'edit', $product->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Product'), ['action' => 'delete', $product->id], ['confirm' => __('Are you sure you want to delete # {0}?', $product->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Products'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Product'), ['action' => 'add']) ?> </li>
-    </ul>
-</nav>
 <div class="products view large-9 medium-8 columns content">
-    <h3><?= h($product->name) ?></h3>
-    <table class="vertical-table">
-        <tr>
-            <th scope="row"><?= __('Price') ?></th>
-            <td><?= $this->Number->format($product->price) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($product->created) ?></td>
-        </tr>
-    </table>
     <div class="row">
-        <h4><?= __('Description') ?></h4>
-        <?= $product->description != null ? $this->Text->autoParagraph(h($product->description)) : __d('shopping', 'None description') ?>
+        <div class="col-lg-12">
+            <ul class="breadcrumb">
+                <li><?= $this->Html->link('Products', ['controller' => 'Products', 'action' => 'index']) ?></li>
+                <li class="active"><?= $product->name ?></li>
+            </ul>
+        </div>
     </div>
-    <br>
+
     <div class="row">
-        <h4><?= __('Image') ?></h4>
-        <?= $this->Html->image('/uploads/' . $product->image, ['alt' => $product->name]) ?>
+        <div class="col-lg-4 col-md-4">
+            <?php echo $this->Html->image('/uploads/' . $product->image, ['class' => 'product-img']);?>
+        </div>
+
+        <div class="col-lg-8 col-md-8 datas">
+            <h1>
+                <?= $product->name ?>
+            </h1>
+            <h2>
+                <?= __d('shopping', 'Price: R$ '. number_format($product->price, 2, ',', '.')) ?>
+            </h2>
+            <p>
+                <input class="button" type="button" value="<?= __d('shopping', 'Add to Cart') ?>" onclick="addCart('<?= $product->id ?>')">
+            </p>
+
+        </div>
+        <div id="loading"></div>
     </div>
-    <br>
+    <script>
+        function addCart(id) {
+            $.ajax({
+                url: '<?= Router::url(['controller' => 'Carts', 'action' => 'add']) ?>' + '/' + encodeURIComponent(id),
+                beforeSend: function () {
+                    $('#loading').html('<?= $this->Html->image('ajax-loader.gif', ['alt' => 'loading...']) ?>');
+                }
+            })
+                .done(function (data) {
+                    $('#loading').html('');
+                    $('#cart-counter').html(data);
+                });
+        }
+    </script>
 </div>

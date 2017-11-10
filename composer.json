@@ -39,14 +39,15 @@
         "psr-4": {
             "App\\": "src",
             "SignUp\\User\\": "./plugins/SignUp/User/src",
-	    "Audit\\": "./plugins/Audit/src",
+            "Audit\\": "./plugins/Audit/src",
             "Accounts\\Admin\\": "./plugins/Accounts/Admin/src",
             "Accounts\\Profile\\": "./plugins/Accounts/Profile/src",
             "Accounts\\Auth\\": "./plugins/Accounts/Auth/src",
             "Accounts\\Authz\\": "./plugins/Accounts/Authz/src",
             "Accounts\\Base\\": "./plugins/Accounts/Base/src",
             "LoggingPack\\": "./plugins/LoggingPack/src",
-            "Logs\\": "./plugins/Logs/src"
+            "Logs\\": "./plugins/Logs/src",
+            "Shopping\\": "./plugins/Shopping/src"
         }
     },
     "autoload-dev": {
@@ -61,7 +62,8 @@
             "Accounts\\Base\\": "./plugins/Accounts/Base/tests",
             "Network\\": "./plugins/Network/tests",
             "LoggingPack\\": "./plugins/LoggingPack/src",
-            "Logs\\": "./plugins/Logs/src"
+            "Logs\\": "./plugins/Logs/src",
+            "Shopping\\Test\\": "./plugins/Shopping/tests"
         }
     },
     "scripts": {
@@ -72,13 +74,17 @@
             "bin/cake migrations migrate --plugin Accounts/Admin --connection default",
             "bin/cake migrations migrate --plugin Accounts/Auth --connection default",
             "bin/cake migrations migrate --plugin Accounts/Authz --connection default",
-	        "bin/cake migrations migrate --plugin Accounts/Profile --connection default",
+            "bin/cake migrations migrate --plugin Accounts/Profile --connection default",
             "bin/cake migrations migrate --plugin Audit --connection default",
-            "bin/cake migrations migrate --plugin LoggingPack --connection default"
+            "bin/cake migrations migrate --plugin LoggingPack --connection default",
+            "bin/cake migrations migrate --plugin Shopping --connection default"
         ],
         "db-seed": [
             "bin/cake migrations seed --plugin Accounts/Admin --connection default",
             "bin/cake migrations seed --plugin Accounts/Authz --connection default"
+        ],
+        "create-folder": [
+            "mkdir webroot/uploads"
         ]
     },
     "minimum-stability": "stable",

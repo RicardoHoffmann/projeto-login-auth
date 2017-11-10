@@ -5,6 +5,7 @@
 /tmp/*
 /vendor/*
 /.idea/*
+/webroot/uploads/*
 
 # OS generated files #
 ######################

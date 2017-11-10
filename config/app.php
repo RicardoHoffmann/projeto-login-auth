@@ -20,7 +20,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => getenv('CAKEPHP_PRODUCTION') != 0,
+    'debug' => getenv('CAKEPHP_PRODUCTION') != 1,
 
     /**
      * Configure basic information about the application.
@@ -192,11 +192,11 @@ return [
             'host' => 'ssl://smtp.gmail.com',
             'port' => 465,
             'timeout' => 30,
-            'username' => 'YOUR_EMAIL@EMAIL.COM',
-            'password' => 'YOUR_PASS',
+            'username' => 'sup.aplicacao@gmail.COM',
+            'password' => 'supapp@@',
             'client' => null,
             'tls' => null,
-            'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
+            'url' => env('sup.aplicacao@gmail.com', null),
         ],
     ],
 

@@ -27,6 +27,11 @@ sudo chmod 777 -R tmp/
 ```
 sudo chmod 777 -R logs/
 ```
+Execute o comando abaixo
+```
+composer create-folder
+```
+Após isso, será criada uma pasta: ```webroot/uploads```, agora você terá que dar permissão de gravação e leitura para respectiva pasta.
 
 ## 2º Passo
 - Crie a base de dados ```projeto_coderace```
